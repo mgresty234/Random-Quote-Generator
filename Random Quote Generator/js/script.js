@@ -33,6 +33,7 @@ function getRandomQuote (array) {
     // This generates new html with the name and quote
     newQuote = `<p class="quote"> ${quotes[generate].quote} </p>
     <p class="source"> ${quotes[generate].name}</p>`;
+    return newQuote;
 }
 
 
